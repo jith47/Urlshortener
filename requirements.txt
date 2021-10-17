@@ -2,4 +2,4 @@ dj-database-url==0.4.1
 Django==3.2.8
 django-hosts==4.0
 gunicorn==19.6.0
-psycopg2==2.5.3
+psycopg2==2.7
