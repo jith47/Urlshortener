@@ -1,1 +1,1 @@
-web: gunicorn kirr.wsgi
+web: gunicorn --chdir src kirr.wsgi
