@@ -1,1 +1,1 @@
-web: gunicorn kirr:app 
+web: gunicorn kirr.wsgi
