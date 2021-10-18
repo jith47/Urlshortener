@@ -25,7 +25,7 @@ SECRET_KEY = 'bdsej=paz5=vlx@+i!18_d&419h2uofk#m+&y2gd969tx6#gk8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.f.com', 'www.h.com', 'live.j.com', 'www.p.com']
+ALLOWED_HOSTS = ['www.f.com', 'www.h.com', 'live.j.com', 'www.p.com', 'urlshortener2000.heroku.com']
 
 
 # Application definition
