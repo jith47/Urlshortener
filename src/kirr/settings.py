@@ -61,8 +61,8 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'kirr.urls'
 ROOT_HOSTCONF = 'kirr.hosts'
 DEFAULT_HOST = 'www'
-DEFAULT_REDIRECT_URL = "http://www.google.com"
-PARENT_HOST = "google.com"
+DEFAULT_REDIRECT_URL = "http://www.f.com"
+PARENT_HOST = "f.com"
 
 TEMPLATES = [
     {
