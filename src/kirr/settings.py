@@ -61,8 +61,8 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'kirr.urls'
 ROOT_HOSTCONF = 'kirr.hosts'
 DEFAULT_HOST = 'www'
-DEFAULT_REDIRECT_URL = "http://www.getshorturl.co"
-PARENT_HOST = "getshorturl.co"
+DEFAULT_REDIRECT_URL = "http://getshorturl.herokuapp.com"
+PARENT_HOST = "getshorturl.herokuapp.com"
 
 TEMPLATES = [
     {
