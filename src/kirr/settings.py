@@ -62,7 +62,7 @@ ROOT_URLCONF = 'kirr.urls'
 ROOT_HOSTCONF = 'kirr.hosts'
 DEFAULT_HOST = 'www'
 DEFAULT_REDIRECT_URL = "http://www.getshorturl.cf"
-PARENT_HOST = "getshorturl.co"
+PARENT_HOST = "getshorturl.cf"
 
 TEMPLATES = [
     {
