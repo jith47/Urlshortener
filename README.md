@@ -3,4 +3,9 @@ A web app which shortens long urls by replacing a unique short url attached with
 It also provides service to store them in a Django admin accesible database, which enables manipulation of data.
 
 Note:
-    This is app can be deployed on your site(**tested with Heroku AI)
+    This app is deployable (**tested with Heroku AI) .You can deploy it on your site after providing site url as DEFAULT_REDIRECT_URL in settings.py
+    
+    
+    
+    
+#use command "python manage.py runserver" to test this app in local server
