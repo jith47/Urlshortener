@@ -11,6 +11,9 @@ Note:
 #use command "python manage.py runserver" to test this app in local server
 
 Setup cmds:
+
     pip install django-hosts
+
     python manage.py migrate
+    
     python manage.py collectstatic
