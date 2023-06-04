@@ -1,7 +1,8 @@
 from django.conf import settings
 from django.http import HttpResponseRedirect
 
-DEFAULT_REDIRECT_URL = getattr(settings, "DEFAULT_REDIRECT_URL", "http://www.getshorturl.cf")
+# DEFAULT_REDIRECT_URL = getattr(settings, "DEFAULT_REDIRECT_URL", "http://www.getshorturl.cf")
+DEFAULT_REDIRECT_URL = getattr(settings, "DEFAULT_REDIRECT_URL", "http://127.0.0.1:8000")
 
 def wildcard_redirect(request, path=None):
 	new_url = DEFAULT_REDIRECT_URL

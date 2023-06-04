@@ -60,9 +60,12 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'kirr.urls'
 ROOT_HOSTCONF = 'kirr.hosts'
+# DEFAULT_HOST = 'www'
 DEFAULT_HOST = 'www'
-DEFAULT_REDIRECT_URL = "http://www.getshorturl.cf"
-PARENT_HOST = "getshorturl.cf"
+# DEFAULT_REDIRECT_URL = "http://www.getshorturl.cf"
+DEFAULT_REDIRECT_URL = "http://127.0.0.1:8000"
+# PARENT_HOST = "getshorturl.cf"
+PARENT_HOST = "127.0.0.1:8000"
 
 TEMPLATES = [
     {
