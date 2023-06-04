@@ -9,3 +9,7 @@ Note:
     
     
 #use command "python manage.py runserver" to test this app in local server
+
+Setup:
+    pip install django-hosts
+    
